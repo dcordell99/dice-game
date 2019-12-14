@@ -23,7 +23,7 @@ const newGame = () => {
   reset("#score-0", "0");
   reset("#current-0", "0");
   reset("#score-1", "0");
-  reset("#current-0", "0")
+  reset("#current-1", "0")
   reset("#name-0", "Player 1");
   reset("#name-1", "Player 2");
 }
