@@ -118,7 +118,7 @@ const holdScore = (current, score) => {
   let playerName1 = document.querySelector("#name-0");
   let playerName2 = document.querySelector("#name-1");
 
-  if (totalScore >= 10 && whichPlayer === true) {
+  if (totalScore >= 100 && whichPlayer === true) {
     playerName1.textContent="WINNER!!!";
     return;
   } else if (totalScore >= 10 && whichPlayer === false) {
