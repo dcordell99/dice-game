@@ -121,7 +121,7 @@ const holdScore = (current, score) => {
   if (totalScore >= 100 && whichPlayer === true) {
     playerName1.textContent="WINNER!!!";
     return;
-  } else if (totalScore >= 10 && whichPlayer === false) {
+  } else if (totalScore >= 100 && whichPlayer === false) {
     playerName2.textContent="WINNER!!!";
     return;
   }
