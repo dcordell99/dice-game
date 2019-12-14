@@ -20,8 +20,6 @@ const newGame = () => {
 
   const reset = (name, value) => {
     document.querySelector(name).textContent=value;
-    document.querySelector(name).textContent=value;
-    document.querySelector(name).textContent=value;
   }
 
   if (player1.classList.toggle("active") === false) {
